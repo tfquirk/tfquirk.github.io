@@ -170,6 +170,7 @@ section.resume-section .resume-item .resume-date {
   background-color: #8c43dd !important;
 }
 .text-primary {
+  font-weight: bold;
   color: #dd4395 !important;
 }
 a {
