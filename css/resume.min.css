@@ -8,7 +8,7 @@ body {
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
   padding-top: 54px;
-  color: #868e96;
+  color: #485058;
 }
 @media (min-width: 992px) {
   body {
@@ -173,7 +173,7 @@ section.resume-section .resume-item .resume-date {
   color: #dd4395 !important;
 }
 a {
-  color: #868e96;
+  color: #485058;
 }
 a:active,
 a:focus,
