@@ -83,7 +83,11 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a id="about_link" class="nav-link js-scroll-trigger" href="#about"
+            <a
+              id="about_link"
+              class="nav-link js-scroll-trigger"
+              href="#about"
+              onclick="gtag('event','click', { 'event_category':'navbar', 'event_label': 'About click' })"
               >About</a
             >
           </li>
@@ -100,6 +104,7 @@
               id="experience_link"
               class="nav-link js-scroll-trigger"
               href="#experience"
+              onclick="gtag('event','click', { 'event_category':'navbar', 'event_label': 'Experience click' })"
               >Experience</a
             >
           </li>
@@ -108,6 +113,7 @@
               id="education_link"
               class="nav-link js-scroll-trigger"
               href="#education"
+              onclick="gtag('event','click', { 'event_category':'navbar', 'event_label': 'Education click' })"
               >Education</a
             >
           </li>
@@ -116,6 +122,7 @@
               id="skills_link"
               class="nav-link js-scroll-trigger"
               href="#skills"
+              onclick="gtag('event','click', { 'event_category':'navbar', 'event_label': 'Skills click' })"
               >Skills</a
             >
           </li>
@@ -124,6 +131,7 @@
               id="interests_link"
               class="nav-link js-scroll-trigger"
               href="#interests"
+              onclick="gtag('event','click', { 'event_category':'navbar', 'event_label': 'Interests click' })"
               >Interests</a
             >
           </li>
@@ -139,25 +147,26 @@
         <div class="w-100">
           <h1 class="mb-0">Timothy <span class="text-primary">Quirk</span></h1>
           <div class="subheading mb-5">
-            Associate Software Engineer, Priceline · 
-            New York, NY ·
-            <a id="email_link" href="mailto:timothyfquirk@gmail.com"
+            Associate Software Engineer, Priceline · New York, NY ·
+            <a
+              id="email_link"
+              href="mailto:timothyfquirk@gmail.com"
+              onclick="gtag('event','click', { 'event_category':'About Section', 'event_label': 'Email hyperlink click' })"
               >timothyfquirk@gmail.com</a
             >
           </div>
           <p class="lead mb-5" style="text-align: justify">
-            I am an experienced technical project manager, and Certified Scrum Master<sup
-              >&reg;</sup
-            >
-            turned full stack web developer. As a natural
-            problem-solver, I was drawn to software engineering. I
-            have experience with JavaScript, React, Redux, Ruby, and Ruby on
-            Rails.
+            I am an experienced technical project manager, and Certified Scrum
+            Master<sup>&reg;</sup>
+            turned full stack web developer. As a natural problem-solver, I was
+            drawn to software engineering. I have experience with JavaScript,
+            React, Redux, Ruby, and Ruby on Rails.
           </p>
           <div class="social-icons">
             <a
               id="linkedin_icon"
               href="https://www.linkedin.com/in/timothyquirk/"
+              onclick="gtag('event','click', { 'event_category':'social-icons', 'event_label': 'linkedin_icon click' })"
               target="_blank"
             >
               <i class="fab fa-linkedin-in"></i>
@@ -165,6 +174,7 @@
             <a
               id="github_icon"
               href="https://github.com/tfquirk"
+              onclick="gtag('event','click', { 'event_category':'social-icons', 'event_label': 'github_icon click' })"
               target="_blank"
             >
               <i class="fab fa-github"></i>
@@ -172,6 +182,7 @@
             <a
               id="medium_icon"
               href="https://medium.com/@timothyfquirk"
+              onclick="gtag('event','click', { 'event_category':'social-icons', 'event_label': 'medium_icon click' })"
               target="_blank"
             >
               <i class="fab fa-medium"></i>
